@@ -1,8 +1,6 @@
-# Pipeline pre testi akcie z GitHub Marketplace
+# Pipeline pre test akcie z GitHub Marketplace
 
 name: Test site for publicly known js vulnerabilities
-uses: lirantal/is-website-vulnerable@v1.14.11
-
 
 on: push
 jobs:
